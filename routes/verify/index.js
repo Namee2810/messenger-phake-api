@@ -20,7 +20,7 @@ router.get("/", (req, res) => {
         </div>
       </div>
       <script>setTimeout(() => {
-        window.location='${process.env.HOMEPAGE}'
+        window.location='${process.env.HOME_URL}'
       }, 3000);</script>
     </body>`;
       res.send(content);
@@ -39,7 +39,7 @@ router.get("/", (req, res) => {
         </div>
       </div>
       <script>setTimeout(() => {
-        window.location='${process.env.HOMEPAGE}'
+        window.location='${process.env.HOME_URL}'
       }, 3000);</script>
     </body>`;
       res.send(content);

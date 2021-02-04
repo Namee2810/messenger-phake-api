@@ -44,7 +44,7 @@ router.post('/', (req, res) => {
         <h1 style="color: #1ED760; font-weight: bold;">Messenger Phakè</h1>
         <p>Xin chào ${fullname},</p>
         <p>Vui lòng xác minh địa chỉ email của bạn bằng cách nhấn link dưới đây!</p>
-        <a href="messengerphake-api.namee.site/verify?key=${key}">
+        <a href="${process.env.API_URL}/verify?key=${key}">
           <button style="background: #1ED760; color: white; border: none; height: 40px; width: 150px; cursor: pointer;">
             Xác minh
           </button>
